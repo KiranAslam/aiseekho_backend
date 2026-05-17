@@ -1,0 +1,29 @@
+# main.py — FastAPI Entry Point
+# Routers will be registered here in Step 4
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI(
+    title="AISeekho Healthcare Platform",
+    description="Autonomous Healthcare Coordination & Operational Intelligence",
+    version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+from routers import analyze, booking, analytics, traces
+
+app.include_router(analyze.router)
+app.include_router(booking.router)
+app.include_router(analytics.router)
+app.include_router(traces.router)
+
+@app.get("/")
+def root():
+    return {"status": "AISeekho Backend Running", "mode": "mock"}
