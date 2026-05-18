@@ -5,9 +5,8 @@ uvicorn main:app --reload --port 8000# AISeekho 2026 — Autonomous Healthcare C
 ## Setup
 ```bash
 python -m venv myenv
-source myenv/bin/activate  # Windows: venv\Scripts\activate
+source myenv/bin/activate  
 pip install -r requirements.txt
-cp .env.example .env
 uvicorn main:app --reload --port 8000
 ```
 
