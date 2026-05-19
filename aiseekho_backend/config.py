@@ -5,7 +5,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     APP_MODE: str = "mock"          # "mock" or "live"
-    APP_NAME: str = "Rah e sehat Healthcare Platform"
+    APP_NAME: str = "AI  Healthcare Orchestration Platform"
     DEFAULT_CITY: str = "Karachi"
 
     GEMINI_API_KEY: str = ""

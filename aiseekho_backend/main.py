@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="Rah e sehat Healthcare Platform",
+    title="AI  Healthcare Orchestration Platform",
     description="Autonomous Healthcare Coordination & Operational Intelligence",
     version="1.0.0"
 )
