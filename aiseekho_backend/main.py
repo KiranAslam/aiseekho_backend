@@ -1,11 +1,13 @@
 # main.py — FastAPI Entry Point
 # Routers will be registered here in Step 4
 
+# pyrefly: ignore [missing-import]
 from fastapi import FastAPI
+# pyrefly: ignore [missing-import]
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="AISeekho Healthcare Platform",
+    title="Rah e sehat Healthcare Platform",
     description="Autonomous Healthcare Coordination & Operational Intelligence",
     version="1.0.0"
 )
