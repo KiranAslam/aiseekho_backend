@@ -21,12 +21,12 @@ lib64/
 MANIFEST
 
 # ─── Virtual Environments ─────────────────────────────────────────
-myenv/
+venv/
 .venv/
 env/
 ENV/
 env.bak/
-myenv.bak/
+venv.bak/
 .Python
 
 # ─── Environment & Secrets (NEVER commit these) ───────────────────
