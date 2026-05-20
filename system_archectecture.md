@@ -202,7 +202,7 @@ A1 (Intent) → A5 (Emergency Coord) → A6 (Execution) → A7 (Follow-up)
 | Member | Role |
 |--------|------|
 | Kiran Aslam | AI Developer — Python backend, agents, FastAPI, Google Cloud |
-| Aqqsa Siddiqui | Flutter Developer — Mobile frontend, UI/UX, Google Maps |
+| Aqsa Siddiqui | Flutter Developer — Mobile frontend, UI/UX, Google Maps |
 
 ---
 
