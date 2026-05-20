@@ -1,7 +1,7 @@
 # AI Healthcare Orchestration Platform  — Development Plan (Antigravity)
 
 ## Project Overview
-**Name:** AI Healthcare Orchestration Platform  
+**Name:** Rah-e-Sehat AI Healthcare Orchestration Platform  
 **Hackathon:** AiSeekho Google Antigravity Hackathon 2026  
 **Track:** Challenge 2 — AI Service Orchestrator for Informal Economy  
 **Theme:** Pakistan's first autonomous healthcare operations intelligence layer  
